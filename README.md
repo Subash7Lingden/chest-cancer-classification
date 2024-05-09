@@ -49,6 +49,20 @@ Author: Subash7Lingden
 Data Scientist
 Email: subashsubblingden@gmail.com
 ```
+### mlflow dagshub connetion uri
+```bash
+MLFLOW_TRACKING_URI=https://dagshub.com/Subash7Lingden/mlflow-experiment-demo.mlflow \
+MLFLOW_TRACKING_USERNAME=Subash7Lingden \
+MLFLOW_TRACKING_PASSWORD=8f40a6bf67c159973e12883280933fe94375eb98 \
+python script.py
+```
+
+```bash
+set MLFLOW_TRACKING_URI=https://dagshub.com/Subash7Lingden/mlflow-experiment-demo.mlflow \
+set MLFLOW_TRACKING_USERNAME=Subash7Lingden \
+set MLFLOW_TRACKING_PASSWORD=8f40a6bf67c159973e12883280933fe94375eb98 \
+python script.py
+```
 
 ## AWS-CICD-Deployment-with-Github-Actions
 
