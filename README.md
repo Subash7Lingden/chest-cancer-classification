@@ -49,6 +49,8 @@ Author: Subash7Lingden
 Data Scientist
 Email: subashsubblingden@gmail.com
 ```
+
+
 ### mlflow dagshub connetion uri
 ```bash
 set MLFLOW_TRACKING_URI=https://dagshub.com/Subash7Lingden/chest-cancer-classification.mlflow \
@@ -56,6 +58,26 @@ set MLFLOW_TRACKING_USERNAME=Subash7Lingden \
 set MLFLOW_TRACKING_PASSWORD=8f40a6bf67c159973e12883280933fe94375eb98 \
 python script.py
 ```
+DVC cmd
+ 1. dvc init
+ 2. dvc repro
+ 3. dvc dag
+ 
+ ```bash
+About MLflow & DVC
+MLflow
+- Its Production Grade
+- Trace all of your expriements
+- Logging & taging your model
+
+DVC
+- Its very lite weight for POC only
+- lite weight expriements tracker
+- It can perform Orchestration (Creating Pipelines)
+```
+
+
+
 
 ## AWS-CICD-Deployment-with-Github-Actions
 
